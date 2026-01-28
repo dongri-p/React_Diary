@@ -18,7 +18,12 @@ function App() {
   };
   return (
     <>
-      <Button />
+      <Button
+        text={"123"}
+        onClick={() => {
+          console.log("123번 클릭");
+        }}
+      />
 
       <Routes>
         <Route path="/" element={<Home />} />
