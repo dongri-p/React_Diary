@@ -1,5 +1,7 @@
+import "./Button.jsx";
+
 const Button = () => {
-  return <div>버튼</div>;
+  return <div className="Button">버튼</div>;
 };
 
 export default Button;
