@@ -20,7 +20,7 @@ function App() {
     <>
       <Button
         text={"123"}
-        type={"DEFAULT"}
+        // type={"DEFAULT"} -> default 는 생략가능
         onClick={() => {
           console.log("123번 클릭");
         }}
