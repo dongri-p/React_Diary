@@ -20,6 +20,23 @@ function App() {
     <>
       <Button
         text={"123"}
+        type={"DEFAULT"}
+        onClick={() => {
+          console.log("123번 클릭");
+        }}
+      />
+
+      <Button
+        text={"123"}
+        type={"POSITIVE"}
+        onClick={() => {
+          console.log("123번 클릭");
+        }}
+      />
+
+      <Button
+        text={"123"}
+        type={"NEGATIVE"}
         onClick={() => {
           console.log("123번 클릭");
         }}
