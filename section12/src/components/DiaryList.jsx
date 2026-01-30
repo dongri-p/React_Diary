@@ -1,5 +1,19 @@
+import "./DiaryList.css";
+import Button from "./Button";
+
 const DiaryList = () => {
-  return <div>List</div>;
+  return (
+    <div className="DiaryList">
+      <div className="menu_bar">
+        <select>
+          <option value={"latest"}>최신순</option>
+          <option vlaue={"oldest"}>오래된 순</option>
+        </select>
+        <Button text={"새로운 일기 쓰기"} type={"POSITIVE"} />
+      </div>
+      <div className="list_wrapper"></div>
+    </div>
+  );
 };
 
 export default DiaryList;
