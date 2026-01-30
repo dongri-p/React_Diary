@@ -13,19 +13,19 @@ import Notfound from "./pages/NotFound";
 const mokData = [
   {
     id: 1,
-    createDate: new Date("2026-01-30").getTime(),
+    createdDate: new Date("2026-01-30").getTime(),
     emotionId: 1,
     content: "1번 일기 내용",
   },
   {
     id: 2,
-    createDate: new Date("2026-01-29").getTime(),
+    createdDate: new Date("2026-01-29").getTime(),
     emotionId: 2,
     content: "2번 일기 내용",
   },
   {
     id: 3,
-    createDate: new Date("2025-12-05").getTime(),
+    createdDate: new Date("2025-12-05").getTime(),
     emotionId: 3,
     content: "3번 일기 내용",
   },
