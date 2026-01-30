@@ -6,8 +6,12 @@ import DiaryList from "../components/DiaryList";
 const Home = () => {
   const [pivotDate, setPivotDate] = useState(new Date());
 
-  const onIncreaseMonth = () => {};
-  const onDecreaseMonth = () => {};
+  const onIncreaseMonth = () => {
+    setPivotDate(new Date(pivotDate.getFullYear(), pivotDate.getMonth() + 1));
+  };
+  const onDecreaseMonth = () => {
+    setPivotDate(new Date(pivotDate.getFullYear(), pivotDate.getMonth() - 1));
+  };
 
   return (
     <div>
