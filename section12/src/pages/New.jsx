@@ -11,6 +11,7 @@ const New = () => {
 
   const onSubmit = (input) => {
     onCreate(input.createdDate.getTime(), input.emotionId, input.content);
+    nav("/", { replace: true }); // 새로 추가하면 홈페이지로 이동, 이동 됐을 때 뒤로가기 못하게 방지
   };
 
   return (
