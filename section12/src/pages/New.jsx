@@ -10,7 +10,7 @@ const New = () => {
   const nav = useNavigate();
 
   const onSubmit = (input) => {
-    onCreate(input.createdDate, input.emotionId, input.content);
+    onCreate(input.createdDate.getTime(), input.emotionId, input.content);
   };
 
   return (
