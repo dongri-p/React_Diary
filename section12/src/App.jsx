@@ -53,6 +53,8 @@ function App() {
   const [data, dispatch] = useReducer(reducer, mokData);
   const idRef = useRef(3);
 
+  // localStorage.setItem("text", "hello");
+
   const onCreate = (createdDate, emotionId, content) => {
     dispatch({
       type: "CREATE",
