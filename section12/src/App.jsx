@@ -59,6 +59,9 @@ function App() {
   // console.log(localStorage.getItem("text"));
   // console.log(JSON.parse(localStorage.getItem("person")));
 
+  localStorage.removeItem("text");
+  // 브라우저 개발자텝 application에서 해당 데이터 클릭하고 backspace
+
   const onCreate = (createdDate, emotionId, content) => {
     dispatch({
       type: "CREATE",
