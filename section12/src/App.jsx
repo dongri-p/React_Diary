@@ -54,6 +54,7 @@ function App() {
   const idRef = useRef(3);
 
   // localStorage.setItem("text", "hello");
+  // localStorage.setItem("person", JSON.stringify({ name: "홍동범" }));
 
   const onCreate = (createdDate, emotionId, content) => {
     dispatch({
