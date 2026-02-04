@@ -56,6 +56,9 @@ function App() {
   // localStorage.setItem("text", "hello");
   // localStorage.setItem("person", JSON.stringify({ name: "홍동범" }));
 
+  // console.log(localStorage.getItem("text"));
+  // console.log(JSON.parse(localStorage.getItem("person")));
+
   const onCreate = (createdDate, emotionId, content) => {
     dispatch({
       type: "CREATE",
